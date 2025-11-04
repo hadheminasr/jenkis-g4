@@ -4,7 +4,7 @@ options { timestamps() }
 stages {
 stage('Cloner le dépôt') {
   steps {
-git url: 'https://github.com/hadheminasr/jenkis-g4.git', branch: 'main'
+git url: 'https://github.com/hadheminasr/jenkis-g4.git', branch: 'master'
 }
 }
 stage('Étape 1 : Vérification du dépôt') {
